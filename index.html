@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator-body">
+      <input type="text" class="calculator-screen" readonly placeholder="0" />
+      <div class="calculator-grid">
+        <button onclick="btnCalculator('%')">%</button>
+        <button onclick="btnCalculator('CE')">CE</button>
+        <button onclick="btnCalculator('C')">C</button>
+        <button onclick="btnCalculator('backspace')">←</button>
+        <button onclick="btnCalculator('7')">7</button>
+        <button onclick="btnCalculator('8')">8</button>
+        <button onclick="btnCalculator('9')">9</button>
+        <button onclick="btnCalculator('*')">*</button>
+        <button onclick="btnCalculator('4')">4</button>
+        <button onclick="btnCalculator('5')">5</button>
+        <button onclick="btnCalculator('6')">6</button>
+        <button onclick="btnCalculator('-')">-</button>
+        <button onclick="btnCalculator('1')">1</button>
+        <button onclick="btnCalculator('2')">2</button>
+        <button onclick="btnCalculator('3')">3</button>
+        <button onclick="btnCalculator('+')">+</button>
+        <button onclick="btnCalculator('/')">/</button>
+        <button onclick="btnCalculator('0')">0</button>
+        <button onclick="btnCalculator('.')">.</button>
+        <button onclick="btnCalculator('=')">=</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
